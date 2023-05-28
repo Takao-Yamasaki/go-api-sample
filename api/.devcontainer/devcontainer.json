@@ -1,0 +1,14 @@
+// > Dev containers: Open Folder in Container
+{
+  "name": "api-container",
+  "service": "api",
+  "workspaceFolder": "/workspace",
+  "dockerComposeFile": "../../docker-compose.yml",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}
